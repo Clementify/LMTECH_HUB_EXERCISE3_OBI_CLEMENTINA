@@ -63,26 +63,28 @@ table {
 	height: 100px;
     background-color: red;
     display: flex;
+	
 }
+nav{
+	text-decoration: none;
+    color: #ffffff;
 
+}
 .nav-right{
 	display: flex;
 	flex: 2;
-	color: white;
 	justify-content: end;
 	align-content: end;
 	gap: 30px;
 	padding: 23px 16px;
 	font-size: 14px;
-	font-family: roboto,sans-serif;
-	text-decoration: none;
-	
-	
+	/* font-family: roboto,sans-serif; */
 }
 
 .lower-header{
 	height: 100px;
 	background-color: aliceblue;
+	padding: 16px 0;
 }
 
 main{
@@ -91,4 +93,14 @@ main{
 	margin: auto;
 	display: grid;
 	grid-column: span 1;
+}
+
+
+/* media querry */
+
+@media screen and (width>=800){
+ .nav-right{
+	display: none;
+ }
+	
 }
