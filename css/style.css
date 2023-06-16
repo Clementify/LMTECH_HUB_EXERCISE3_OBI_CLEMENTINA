@@ -71,6 +71,7 @@ nav{
 
 }
 .nav-right{
+	overflow: hidden;
 	display: flex;
 	flex: 2;
 	justify-content: end;
