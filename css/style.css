@@ -51,3 +51,26 @@ table {
 
 
 /* Write your css below here */
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.upper-header{
+	height: 100px;
+background-color: red;
+}
+
+.lower-header{
+	height: 100px;
+	background-color: aliceblue;
+}
+
+main{
+	height: 90%;
+	background-color: white;
+	margin: auto;
+}
