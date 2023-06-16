@@ -51,3 +51,57 @@ table {
 
 
 /* Write your css below here */
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.upper-header{
+	height: 100px;
+    background-color: red;
+    display: flex;
+	
+}
+nav a{
+	text-decoration: none;
+    color: #ffffff;
+
+}
+.nav-right{
+	overflow: hidden;
+	display: flex;
+	flex: 2;
+	justify-content: end;
+	align-content: end;
+	gap: 30px;
+	padding: 23px 16px;
+	font-size: 14px;
+	font-family: roboto,sans-serif;
+}
+
+.lower-header{
+	height: 100px;
+	background-color: aliceblue;
+	padding: 16px 0;
+}
+
+main{
+	height: 90%;
+	background-color: white;
+	margin: auto;
+	display: grid;
+	grid-column: span 1;
+}
+
+
+/* media querry */
+
+@media screen and (width>=800){
+ .nav-right{
+	display: none;
+ }
+	
+}
